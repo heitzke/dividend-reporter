@@ -1,7 +1,4 @@
 # To Setup the application:
-# setup RVM:
-$ echo "rvm ruby-1.9.2-head@dividend_reporter" > .rvmrc
-# CD out then back into the directory, hitting y to confirm the rvmrc file
 # confirm that bundle and rake are installed, then install all the project dependencies
 $ gem install rake bundle
 $ bundle install
