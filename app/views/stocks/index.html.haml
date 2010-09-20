@@ -1,7 +1,7 @@
 %h2 Stocks
-%p= link_to 'Track New Stock', new_stock_path
-%p= link_to 'View all quotes', quotes_path
-%table
+%p.gather= link_to 'Track New Stock', new_stock_path
+%p.view= link_to 'View all quotes', quotes_path
+%table{:class => "datatables display"}
   %thead
     %tr
       %th Ticker - Name

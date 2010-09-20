@@ -1,7 +1,7 @@
 - if title && !quotes.empty?
   %h2= title
 - unless quotes.empty?
-  %table{:class => "datatable"}
+  %table{:class => "datatable display"}
     %thead
       %tr
         %th Dividend
@@ -18,7 +18,7 @@
         %th Collected At
     %tbody
       - quotes.each do |quote|
-        %tr
+        %tr.gradeC
           %td= quote.dividend.to_s
           %td= quote.exdate.to_s
           %td= quote.dividend_per_share.to_s

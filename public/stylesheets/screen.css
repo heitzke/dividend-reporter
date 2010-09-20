@@ -9,9 +9,8 @@ html {
 
 #header {
   width:auto;
-  height:50px;
-  background:#c4c4c4;
-  border-bottom:1px solid #a8a8a8;
+  height:60px;
+  background:#fff;
   }
 #header_content {
   width:960px;
@@ -20,6 +19,7 @@ html {
 
 #header_content h1 {
   padding:5px 0 0 0;
+  color:#e0a249;
   }
 
 #content_bg {
@@ -28,14 +28,26 @@ html {
 }
 
 #content_wrap {
-  width:960px;
-  background:#e1e1e1;
+  width:950px;
+  background:#f6f6f6;
+  border-top:1px solid #ededed;
+  border-left:1px solid #ededed;
+  border-right:1px solid #ededed;
   margin: 0 auto;
-  padding: 15px 0 15px 15px;
+  padding: 15px 15px 15px 15px;
   }  
 
 #content {
+  padding: 0 0 15px 0;
   }
+
+#content .gather {
+  margin: 7px 0 0 0;  
+} 
+
+#content .view {
+  margin: 7px 0 7px 0;  
+}
 
 h1 {
   font-size:2.2em;
@@ -44,17 +56,41 @@ h1 {
 
 h2 {
   font-size:1.8em;
-  }  
+  color:#666;
+}  
 
 #footer {
   height:200px;
   width:auto;
   background:#666;
-  }
+}
 
 #footer_content {
   width:960px;
   margin: 0 auto;
   padding:10px 0 0 0;
-  }
+}
 
+#content p {
+  color:#000;
+}
+
+#content p a {
+  color:#000;  
+}
+
+#content p a:hover {
+  color:#888;  
+}
+
+#content table th {
+  font-size:.9em;
+}
+
+#content table a {
+  color:#000;
+} 
+
+#content table a:hover {
+  color:#888;
+  }  

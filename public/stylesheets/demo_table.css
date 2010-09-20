@@ -50,24 +50,30 @@
   border: 1px solid #ddd;
   text-align: center;
   color: #999;
-  font-size: 14px;
+  font-size: 1.1em;
   background-color: white;
 }
 
 .dataTables_length {
   width: 40%;
   float: left;
+  margin: 10px 0 15px 0;
+  font-size:.9em;
 }
 
 .dataTables_filter {
   width: 50%;
   float: right;
   text-align: right;
+  margin:10px 0 0 0;
+  font-size:.9em;
 }
 
 .dataTables_info {
   width: 60%;
   float: left;
+  font-size:.9em;
+  margin:7px 0 7px 0;
 }
 
 .dataTables_paginate {
@@ -107,9 +113,9 @@
  * DataTables display
  */
 table.display {
-  margin: 0 auto;
+  margin: 10px 0 0 0; 
   clear: both;
-  width: 100%;
+  width: 950px;
   
   /* Note Firefox 3.5 and before have a bug with border-collapse
    * ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 ) 
@@ -127,7 +133,7 @@ table.display {
 
 table.display thead th {
   padding: 3px 18px 3px 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
   font-weight: bold;
   cursor: pointer;
   * cursor: hand;
@@ -193,11 +199,11 @@ table.display tr.even.gradeA {
 }
 
 table.display tr.odd.gradeC {
-  background-color: #ddddff;
+  background-color: #f1ddcf;
 }
 
 table.display tr.even.gradeC {
-  background-color: #eeeeff;
+  background-color: #f7eae1;
 }
 
 table.display tr.odd.gradeX {
@@ -218,11 +224,11 @@ table.display tr.even.gradeU {
 
 
 tr.odd {
-  background-color: #E2E4FF;
+  background-color: #f1ddcf;
 }
 
 tr.even {
-  background-color: white;
+  background-color: #f7eae1;
 }
 
 
@@ -386,7 +392,7 @@ tr.even.gradeA td.sorting_3 {
 }
 
 tr.odd.gradeC td.sorting_1 {
-  background-color: #c4c4ff;
+  background-color: #efbe99;
 }
 
 tr.odd.gradeC td.sorting_2 {
@@ -398,7 +404,7 @@ tr.odd.gradeC td.sorting_3 {
 }
 
 tr.even.gradeC td.sorting_1 {
-  background-color: #d5d5ff;
+  background-color: #f5d9c4;
 }
 
 tr.even.gradeC td.sorting_2 {

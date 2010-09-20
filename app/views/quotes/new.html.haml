@@ -1,5 +1,5 @@
 %h2 Gather Quotes
-%p= link_to 'View all quotes', quotes_path
+%p.view= link_to 'View all quotes', quotes_path
 = form_for(@quote) do |f|
   .actions
     = f.submit('Gather Quotes')
